@@ -1,0 +1,34 @@
+[{
+    "name": "Boiketlo",
+    "surname": "Monama",
+    "age": 22,
+    "sex": 1,
+    "cellphone": "0660332211",
+    "address": {
+        "addressA": {
+            "streetAddress": "Mabitsi",
+            "town": "Pretoria",
+            "postalCode": "2000"
+            
+        },
+        "addressB": {
+            "streetAddress": "Mabitsi",
+            "town": "Pretoria",
+            "postalCode": "2002"
+            
+        }
+    }
+}, {
+    "fever": true,
+    "cough": true,
+    "shortnessBreath": true,
+    "soreThroat": true,
+    "musclePain": true,
+    "lostTasteSmell": true,
+    "questions": {
+        "attendedGathering": true,
+        "attendedHealthCare": true,
+        "interprovincialTravel": true,
+        "possibleCovidContact": true
+    }
+}]

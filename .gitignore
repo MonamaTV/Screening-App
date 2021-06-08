@@ -1,0 +1,4 @@
+/Covid API/node_modules
+/Covid UI/node_modules
+/node_modules
+.env

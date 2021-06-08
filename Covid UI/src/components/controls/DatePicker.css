@@ -1,0 +1,10 @@
+input {
+  padding: 10px 0.7rem;
+  margin: 0 2px;
+  outline: none;
+  border: 0.12rem solid #121e186c;
+  border-radius: 2px;
+}
+input[type="date"]::-webkit-datetime-edit {
+  content: "Start";
+}

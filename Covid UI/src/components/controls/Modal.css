@@ -1,0 +1,66 @@
+.modal__container {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+.modal__animation {
+  z-index: 1;
+  animation: slide-in 500ms;
+  background: #4b5550f6;
+  color: #e4e4e4f6;
+  padding: 10px 30px;
+  position: fixed;
+  opacity: 1;
+  position: fixed;
+  opacity: 1;
+  top: 100px;
+}
+.form__modal__container {
+  width: 35vw;
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+@keyframes slide-in {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 100px;
+  }
+}
+
+.modal__input__group input[type="text"],
+.modal__input__group input[type="email"],
+.modal__input__group button {
+  display: block;
+  width: 100%;
+  margin: 6px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.modal__input__group button {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  cursor: pointer;
+  background: #121e18;
+  color: #fff;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+}
+.input__container {
+  width: 100%;
+}
+.close-modal {
+  position: absolute;
+  top: 15px;
+  cursor: pointer;
+  right: 20px;
+  font-size: 30px;
+  background-color: hsla(148, 15%, 17%, 0);
+  border: none;
+  outline: none;
+  color: red;
+}
